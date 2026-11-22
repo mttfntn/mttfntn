@@ -2,7 +2,7 @@
 
 3D Artist, Generalist. Using Blender, Octane, Python and more. This profile holds most of the tools I create and use + more stuff.
 
-3D 艺术家，综合型创作者。使用 Blender、Octane、Python 等工具。这个主页收录了我开发和使用的大部分工具，以及更多内容。
+3Dアーティスト、ジェネラリスト。Blender、Octane、Python などを使っています。このプロフィールには、私が作って使っているツールのほとんどと、その他いろいろなものをまとめています。
 
 ### blender
 
