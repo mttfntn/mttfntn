@@ -53,6 +53,9 @@
 
 [![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org)
 [![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)](https://home.otoy.com/render/octane-render/)
+[![TouchDesigner](https://img.shields.io/badge/TouchDesigner-1A1A1A?style=for-the-badge&logoColor=white)](https://derivative.ca)
+[![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com)
+[![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
 
 ### 📊 Most used languages
 
