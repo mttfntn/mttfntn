@@ -38,8 +38,8 @@
 
 **tools**
 
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://docs.blender.org/api/current/)
-[![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
 
 **web 3d**
 
