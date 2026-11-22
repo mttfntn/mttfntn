@@ -26,7 +26,7 @@
 ### elsewhere
 
 <p>
-<a href="https://github.com/mttfntn/one-finger-rotation-swiftui"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=8"><img src="cards/light/onefingerrotation.svg?v=8" alt="one-finger-rotation-swiftui"></picture></a>
+<a href="https://github.com/mttfntn/one-finger-rotation-swiftui"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/one-finger-rotation-swiftui.svg?v=8"><img src="cards/light/one-finger-rotation-swiftui.svg?v=8" alt="one-finger-rotation-swiftui"></picture></a>
 <a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=8"><img src="cards/light/phone-trackpad.svg?v=8" alt="phone trackpad"></picture></a>
 </p>
 
