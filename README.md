@@ -38,7 +38,6 @@
 
 **tools**
 
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://docs.blender.org/api/current/)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
 
@@ -53,8 +52,6 @@
 
 ### software
 
-[![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org)
-[![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)](https://home.otoy.com/render/octane-render/)
 [![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
 [![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com)
 [![TouchDesigner](https://img.shields.io/badge/TouchDesigner-1A1A1A?style=for-the-badge&logoColor=white)](https://derivative.ca)
