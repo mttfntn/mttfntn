@@ -1,8 +1,8 @@
 <img src="banner/banner.png" alt="Matteo Fontana" width="100%">
 
-3D Artist, Generalist. I use Blender, Python and more. This github profile holds most of the tools I create and use.
+3D Artist, Generalist. Using Blender, Octane, Python and more. This profile holds most of the tools I create and use + more stuff.
 
-3D 艺术家，综合型创作者。我使用 Blender、Python 等工具进行创作。这个 GitHub 主页收录了我开发和使用的大部分工具。
+3D 艺术家，综合型创作者。使用 Blender、Octane、Python 等工具。这个主页收录了我开发和使用的大部分工具，以及更多内容。
 
 ### blender
 
@@ -65,13 +65,13 @@
 
 <!--LANGUAGES:START-->
 ```text
-Python         1214.7 KB   ████████████████████████░   94.28 %
-JavaScript       48.3 KB   █░░░░░░░░░░░░░░░░░░░░░░░░    3.75 %
-Swift            13.6 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    1.05 %
-CSS               4.9 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.38 %
-HTML              4.0 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.31 %
-Batchfile         1.6 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.12 %
+Python          580.3 KB   ██████████████████████░░░   88.73 %
+JavaScript       48.3 KB   ██░░░░░░░░░░░░░░░░░░░░░░░    7.38 %
+Swift            13.6 KB   █░░░░░░░░░░░░░░░░░░░░░░░░    2.07 %
+CSS               4.9 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.75 %
+HTML              4.0 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.62 %
+Batchfile         1.6 KB   ░░░░░░░░░░░░░░░░░░░░░░░░░    0.24 %
 ```
 <!--LANGUAGES:END-->
 
-<sub>by code in my public repositories, updated daily</sub>
+<sub>by code in my own public repositories (forks of other people's work left out), updated daily</sub>

@@ -2,9 +2,10 @@
 
     GITHUB_TOKEN=... python3 stats/languages.py
 
-Adds up GitHub's per-language byte counts over every public, non-fork repository of USER, and
-replaces the text between the two LANGUAGES markers in README.md. The languages workflow runs
-it once a day; without a token it still works, within GitHub's limit for anonymous requests.
+Adds up GitHub's per-language byte counts over every public, non-fork repository of USER
+(except those in EXCLUDE), and replaces the text between the two LANGUAGES markers in
+README.md. The languages workflow runs it once a day; without a token it still works, within
+GitHub's limit for anonymous requests.
 """
 import json
 import os
@@ -16,6 +17,9 @@ USER = "mttfntn"
 TOP = 6
 BAR = 25
 README = Path(__file__).resolve().parent.parent / "README.md"
+# Repositories built on someone else's code, left out so the chart counts only my own code.
+# tissue-blender-5 is a fork of Alessandro Zomparelli's Tissue (not marked as a fork on GitHub).
+EXCLUDE = {"tissue-blender-5"}
 START, END = "<!--LANGUAGES:START-->", "<!--LANGUAGES:END-->"
 
 
@@ -32,7 +36,7 @@ def totals():
     repos = get(f"https://api.github.com/users/{USER}/repos?type=owner&per_page=100")
     sums = {}
     for repo in repos:
-        if repo["fork"] or repo["private"]:
+        if repo["fork"] or repo["private"] or repo["name"] in EXCLUDE:
             continue
         for lang, size in get(repo["languages_url"]).items():
             sums[lang] = sums.get(lang, 0) + size
