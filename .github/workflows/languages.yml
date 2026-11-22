@@ -1,4 +1,5 @@
-# Refreshes the "Most used languages" block in README.md once a day (and on demand).
+# Refreshes the "Most used languages" block in README.md and the project cards (releases,
+# stars) once a day, and on demand.
 # It commits to main only when the numbers changed; no other branch is used.
 name: languages
 
@@ -22,10 +23,15 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: python3 stats/languages.py
 
+      - name: Redraw the project cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 cards/make_cards.py
+
       - name: Commit if changed
         run: |
-          git add README.md
+          git add README.md cards
           if git diff --cached --quiet; then echo "No change"; exit 0; fi
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
-            commit -q -m "Update most used languages"
+            commit -q -m "Update most used languages and project cards"
           git push -q origin HEAD:main
