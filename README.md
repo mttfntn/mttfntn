@@ -16,7 +16,7 @@
 |---|---|
 | **[onefingerrotation](https://github.com/mttfntn/OneFingerRotation)**<br>spin swiftui views with one finger. 58 people liked that. | **[phone trackpad](https://github.com/mttfntn/phone-trackpad)**<br>your phone, but it's a trackpad now. |
 
-<p align="center">
+<p>
   <a href="https://www.blender.org"><img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48"></a>
   <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48"></a>
   <a href="https://home.otoy.com/render/octane-render/"><img src="icons/octane.svg" alt="OctaneRender" height="48"></a>
