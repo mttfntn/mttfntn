@@ -30,36 +30,34 @@
 
 <p>
   <a href="https://www.blender.org"><img src="icons/blender-original.svg" alt="Blender" height="44"></a>&nbsp;&nbsp;
-  <a href="https://www.python.org"><img src="icons/python-original.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
   <a href="https://home.otoy.com/render/octane-render/"><picture><source media="(prefers-color-scheme: dark)" srcset="icons/octane-white.svg"><img src="icons/octane-black.svg" alt="OctaneRender" height="44"></picture></a>&nbsp;&nbsp;
-  <a href="https://vuejs.org"><img src="icons/vuejs-original.svg" alt="Vue" height="44"></a>&nbsp;&nbsp;
-  <a href="https://nuxt.com"><img src="icons/nuxt-original.svg" alt="Nuxt" height="44"></a>&nbsp;&nbsp;
-  <a href="https://bun.com"><img src="icons/bun-original.svg" alt="Bun" height="44"></a>&nbsp;&nbsp;
+  <a href="https://www.python.org"><img src="icons/python-original.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
 </p>
 
-### tech stack
+### code
+
+**tools**
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://docs.blender.org/api/current/)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
-[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org)
-[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)](https://nuxt.com)
-[![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.com)
-[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com)
+
+**web 3d**
+
 [![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
-[![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=gsap&logoColor=white)](https://gsap.com)
-[![ScrollTrigger](https://img.shields.io/badge/ScrollTrigger-088F2F?style=for-the-badge&logo=gsap&logoColor=white)](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
-[![Lenis](https://img.shields.io/badge/Lenis-1A1A1A?style=for-the-badge&logoColor=white)](https://lenis.dev)
 [![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)](https://www.khronos.org/webgl/)
 [![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge&logo=webgpu&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
+[![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=gsap&logoColor=white)](https://gsap.com)
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org)
+[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)](https://nuxt.com)
 
 ### software
 
 [![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org)
 [![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)](https://home.otoy.com/render/octane-render/)
-[![TouchDesigner](https://img.shields.io/badge/TouchDesigner-1A1A1A?style=for-the-badge&logoColor=white)](https://derivative.ca)
-[![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com)
 [![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
+[![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com)
+[![TouchDesigner](https://img.shields.io/badge/TouchDesigner-1A1A1A?style=for-the-badge&logoColor=white)](https://derivative.ca)
 
 ### most used languages
 
