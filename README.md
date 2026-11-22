@@ -17,24 +17,28 @@
 | **[onefingerrotation](https://github.com/mttfntn/OneFingerRotation)**<br>spin swiftui views with one finger. 58 people liked that. | **[phone trackpad](https://github.com/mttfntn/phone-trackpad)**<br>your phone, but it's a trackpad now. |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=blender,py,swift,apple,ts,vue,nuxtjs,bun,html,git,github&perline=11" alt="Blender, Python, Swift, Apple, TypeScript, Vue, Nuxt, Bun, HTML, Git, GitHub">
+  <img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48">
+  <img src="https://skillicons.dev/icons?i=py" alt="Python" height="48">
+  <img src="icons/octane.svg" alt="OctaneRender" height="48">
+  <img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="48">
+  <img src="https://skillicons.dev/icons?i=nuxtjs" alt="Nuxt" height="48">
+  <img src="https://skillicons.dev/icons?i=bun" alt="Bun" height="48">
 </p>
 
 ### 💻 Tech stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
 ### 🛠️ Software
 
 ![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logoColor=white)
+![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
