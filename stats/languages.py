@@ -17,9 +17,10 @@ USER = "mttfntn"
 TOP = 6
 BAR = 20
 README = Path(__file__).resolve().parent.parent / "README.md"
-# Repositories built on someone else's code, left out so the chart counts only my own code.
-# tissue-blender-5 is a fork of Alessandro Zomparelli's Tissue (not marked as a fork on GitHub).
-EXCLUDE = {"tissue-blender-5"}
+# Repositories built on someone else's code that GitHub doesn't mark as forks, left out so the
+# chart counts only my own code. (tissue-blender-5 is now a real fork, so it's skipped as one;
+# tissue-blender-5-old is the copy from before it became a fork.)
+EXCLUDE = {"tissue-blender-5-old"}
 START, END = "<!--LANGUAGES:START-->", "<!--LANGUAGES:END-->"
 
 
