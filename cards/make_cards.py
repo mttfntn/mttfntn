@@ -78,7 +78,7 @@ def card(name, desc, details, release, stars, accent, t):
     """One card as SVG: a thin terminal-style frame with the name cut into its top edge, two
     lines for the description (always reserved, so every card has the same height) and a
     details line. All text is monospace."""
-    inner = COLS - 4
+    inner = COLS - 6  # text width, with at least one character of margin before the frame
     width = COLS * CHAR_W + 2 * PAD
     left, right = PAD + CHAR_W / 2, PAD + (COLS - 0.5) * CHAR_W
     top, line0 = PAD + 8, PAD + 8 + LINE_H + 4
