@@ -4,17 +4,25 @@
 
 ### blender
 
-| | |
-|---|---|
-| **[sanzo wada colors](https://github.com/mttfntn/sanzo-wada-colors-blender)**<br>a 1930s color dictionary, now in your shader editor. | **[shrinkpatch](https://github.com/mttfntn/shrinkpatch-blender)**<br>stick details onto any surface. no seams, no fuss. |
-| **[driver controller](https://github.com/mttfntn/driver-controller-blender)**<br>all your drivers, one panel. | **[checklist tool](https://github.com/mttfntn/checklist-tool-blender)**<br>a to-do list that lives inside the .blend. |
-| **[resource safeguard](https://github.com/mttfntn/resource-safeguard-blender)**<br>your gpu takes a break when you do. | **[tissue for blender 5](https://github.com/mttfntn/tissue-blender-5)**<br>alessandro zomparelli's tissue, kept running on 5.3. |
+<p>
+<a href="https://github.com/mttfntn/sanzo-wada-colors-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/sanzo-wada-colors.svg"><img src="cards/light/sanzo-wada-colors.svg" alt="sanzo wada colors" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/shrinkpatch-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/shrinkpatch.svg"><img src="cards/light/shrinkpatch.svg" alt="shrinkpatch" width="49%"></picture></a>
+</p>
+<p>
+<a href="https://github.com/mttfntn/driver-controller-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/driver-controller.svg"><img src="cards/light/driver-controller.svg" alt="driver controller" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/checklist-tool-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/checklist-tool.svg"><img src="cards/light/checklist-tool.svg" alt="checklist tool" width="49%"></picture></a>
+</p>
+<p>
+<a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg"><img src="cards/light/resource-safeguard.svg" alt="resource safeguard" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg"><img src="cards/light/tissue-blender-5.svg" alt="tissue for blender 5" width="49%"></picture></a>
+</p>
 
 ### elsewhere
 
-| | |
-|---|---|
-| **[onefingerrotation](https://github.com/mttfntn/OneFingerRotation)**<br>spin swiftui views with one finger. 58 people liked that. | **[phone trackpad](https://github.com/mttfntn/phone-trackpad)**<br>your phone, but it's a trackpad now. |
+<p>
+<a href="https://github.com/mttfntn/OneFingerRotation"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg"><img src="cards/light/onefingerrotation.svg" alt="onefingerrotation" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg"><img src="cards/light/phone-trackpad.svg" alt="phone trackpad" width="49%"></picture></a>
+</p>
 
 <p>
   <a href="https://www.blender.org"><img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48"></a>
