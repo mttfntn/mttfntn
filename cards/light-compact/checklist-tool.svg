@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246" height="189" viewBox="0 0 246 189">
+<style>text { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; }</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="18.2" y="22.0" width="210.0" height="153.0" fill="none" stroke="#c8d1da" stroke-width="1.2"/>
+<rect x="22.4" y="19.0" width="134.4" height="6" fill="#ffffff"/>
+<rect x="206.4" y="19.0" width="18.5" height="6" fill="#ffffff"/>
+<text x="30.8" y="27.0" fill="#1f2328">checklist-tool</text>
+<text x="210.6" y="27.0" fill="#E87D0D">↗</text>
+<text x="30.8" y="47.0" fill="#59636e">a to-do list that</text>
+<text x="30.8" y="68.0" fill="#59636e">lives inside the</text>
+<text x="30.8" y="89.0" fill="#59636e">.blend.</text>
+<text x="30.8" y="118.0" xml:space="preserve"><tspan fill="#E87D0D">blender</tspan><tspan fill="#818b98"></tspan></text>
+<text x="30.8" y="139.0" xml:space="preserve"><tspan fill="#E87D0D"></tspan><tspan fill="#818b98">v1.2.1 · 25.1 KB</tspan></text>
+<text x="30.8" y="160.0" xml:space="preserve"><tspan fill="#E87D0D"></tspan><tspan fill="#818b98">★ 1</tspan></text>
+</svg>

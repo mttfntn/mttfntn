@@ -25,17 +25,17 @@ FONT = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Libe
 # card file, repository, name, description, details, accent color
 PROJECTS = [
     ("sanzo-wada-colors", "sanzo-wada-colors-blender", "sanzo-wada-colors",
-     "a 1930s color dictionary, now in your shader editor.", "blender · python", "#E87D0D"),
+     "a 1930s color dictionary, now in your shader editor.", "blender", "#E87D0D"),
     ("shrinkpatch", "shrinkpatch-blender", "shrinkpatch",
-     "stick details onto any surface. no seams, no fuss.", "blender · python", "#E87D0D"),
+     "stick details onto any surface. no seams, no fuss.", "blender", "#E87D0D"),
     ("driver-controller", "driver-controller-blender", "driver-controller",
-     "all your drivers, one panel.", "blender · python", "#E87D0D"),
+     "all your drivers, one panel.", "blender", "#E87D0D"),
     ("checklist-tool", "checklist-tool-blender", "checklist-tool",
-     "a to-do list that lives inside the .blend.", "blender · python", "#E87D0D"),
+     "a to-do list that lives inside the .blend.", "blender", "#E87D0D"),
     ("resource-safeguard", "resource-safeguard-blender", "resource-safeguard",
-     "your gpu takes a break when you do.", "blender · python", "#E87D0D"),
+     "your gpu takes a break when you do.", "blender", "#E87D0D"),
     ("tissue-blender-5", "tissue-blender-5", "tissue-blender-5",
-     "alessandro zomparelli's tissue, kept running on 5.3.", "blender · python", "#E87D0D"),
+     "alessandro zomparelli's tissue, kept running on 5.3.", "blender", "#E87D0D"),
     ("onefingerrotation", "OneFingerRotation", "onefingerrotation",
      "spin swiftui views with one finger.", "swift · swiftui", "#F05138"),
     ("phone-trackpad", "phone-trackpad", "phone-trackpad",
@@ -78,25 +78,46 @@ def wrap(text, width):
     return lines + [line]
 
 
-def card(name, desc, details, release, size, stars, accent, t):
-    """One card as SVG: a thin terminal-style frame with the name cut into its top edge, two
-    lines for the description (always reserved, so every card has the same height) and a
-    details line. All text is monospace."""
-    inner = COLS - 6  # text width, with at least one character of margin before the frame
-    width = COLS * CHAR_W + 2 * PAD
-    left, right = PAD + CHAR_W / 2, PAD + (COLS - 0.5) * CHAR_W
+def card(name, desc, details, release, size, stars, accent, t, cols=COLS, desc_rows=2, split_meta=False):
+    """One card as SVG: a thin terminal-style frame with the name cut into its top edge, the
+    description (desc_rows lines, always reserved, so every card of a layout has the same height)
+    and the details. All text is monospace. The compact layout (narrow screens) uses fewer
+    columns, so its text stays large when the card is shown small, and puts the release on a
+    second details line."""
+    inner = cols - 6  # text width, with at least one character of margin before the frame
+    width = cols * CHAR_W + 2 * PAD
+    left, right = PAD + CHAR_W / 2, PAD + (cols - 0.5) * CHAR_W
     top, line0 = PAD + 8, PAD + 8 + LINE_H + 4
-    desc_lines = (wrap(desc, inner) + ["", ""])[:2]
-    bottom = line0 + 3 * LINE_H + 2
-    height = bottom + PAD
+    desc_lines = wrap(desc, inner)
+    if len(desc_lines) > desc_rows or len(name) > cols - 7:
+        raise ValueError(f"{name!r} does not fit a {cols}-column card")
+    desc_lines = (desc_lines + [""] * desc_rows)[:desc_rows]
     head, _, rest = details.partition(" · ")
-    meta_tail = ((" · " + rest if rest else "") + (f" · {release}" if release else "")
-                 + (f" · {size}" if size else "") + (f" · ★ {stars}" if stars else ""))
-    if len(head + meta_tail) > inner:
-        raise ValueError(f"details line too long for the card: {head + meta_tail!r}")
+    extra = " · ".join(x for x in (release, size, f"★ {stars}" if stars else None) if x)
+    # If the details don't fit, the secondary platform words (e.g. "python") go first.
+    stars_text = f"★ {stars}" if stars else None
+    for platform in ([" · " + rest] if rest else []) + [""]:
+        if split_meta:  # compact: platform / release and size / stars, each on its own line
+            meta = [(head, platform), ("", " · ".join(x for x in (release, size) if x)), ("", stars_text or "")]
+        else:
+            extra = " · ".join(x for x in (release, size, stars_text) if x)
+            meta = [(head, platform + (" · " + extra if extra else ""))]
+        if all(len(h + tail) <= inner for h, tail in meta):
+            break
+    else:
+        raise ValueError(f"details too long for the card: {head!r} {release!r} {size!r} {stars_text!r}")
+    bottom = line0 + (desc_rows + len(meta)) * LINE_H + 2
+    height = bottom + PAD
     x_text = PAD + 2 * CHAR_W
     title_w = (len(name) + 2) * CHAR_W
     e = escape
+    rows = [f'<text x="{x_text:.1f}" y="{line0 + i * LINE_H:.1f}" fill="{t["text"]}">{e(l)}</text>'
+            for i, l in enumerate(desc_lines)]
+    y = line0 + desc_rows * LINE_H + 8
+    for h, tail in meta:
+        rows.append(f'<text x="{x_text:.1f}" y="{y:.1f}" xml:space="preserve"><tspan fill="{accent}">{e(h)}</tspan>'
+                    f'<tspan fill="{t["dim"]}">{e(tail)}</tspan></text>')
+        y += LINE_H
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width:.0f}" height="{height:.0f}" viewBox="0 0 {width:.0f} {height:.0f}">
 <style>text {{ font: 14px {FONT}; }}</style>
 <rect width="100%" height="100%" fill="{t['bg']}"/>
@@ -105,11 +126,11 @@ def card(name, desc, details, release, size, stars, accent, t):
 <rect x="{right - 2.6 * CHAR_W:.1f}" y="{top - 3:.1f}" width="{2.2 * CHAR_W:.1f}" height="6" fill="{t['bg']}"/>
 <text x="{x_text:.1f}" y="{top + 5:.1f}" fill="{t['name']}">{e(name)}</text>
 <text x="{right - 2.1 * CHAR_W:.1f}" y="{top + 5:.1f}" fill="{accent}">↗</text>
-<text x="{x_text:.1f}" y="{line0:.1f}" fill="{t['text']}">{e(desc_lines[0])}</text>
-<text x="{x_text:.1f}" y="{line0 + LINE_H:.1f}" fill="{t['text']}">{e(desc_lines[1])}</text>
-<text x="{x_text:.1f}" y="{line0 + 2 * LINE_H + 8:.1f}" xml:space="preserve"><tspan fill="{accent}">{e(head)}</tspan><tspan fill="{t['dim']}">{e(meta_tail)}</tspan></text>
-</svg>
-"""
+""" + "\n".join(rows) + "\n</svg>\n"
+
+
+# Layouts: folder suffix -> card() options. "-compact" is used on narrow screens (see README.md).
+LAYOUTS = {"": {}, "-compact": {"cols": 26, "desc_rows": 3, "split_meta": True}}
 
 
 def main():
@@ -120,11 +141,13 @@ def main():
         zips = [a["size"] for a in latest.get("assets", []) if a["name"].endswith(".zip")]
         size = human_size(zips[0]) if zips else None  # the download attached to the release
         for theme, colors in THEMES.items():
-            out = HERE / theme
-            out.mkdir(exist_ok=True)
-            svg = card(name, desc, details, release, size, info.get("stargazers_count", 0), accent, colors)
-            (out / f"{slug}.svg").write_text(svg, encoding="utf-8")
-    print(f"wrote {len(PROJECTS) * len(THEMES)} cards")
+            for suffix, options in LAYOUTS.items():
+                out = HERE / f"{theme}{suffix}"
+                out.mkdir(exist_ok=True)
+                svg = card(name, desc, details, release, size, info.get("stargazers_count", 0), accent, colors,
+                           **options)
+                (out / f"{slug}.svg").write_text(svg, encoding="utf-8")
+    print(f"wrote {len(PROJECTS) * len(THEMES) * len(LAYOUTS)} cards")
 
 
 if __name__ == "__main__":

@@ -15,7 +15,7 @@ from pathlib import Path
 
 USER = "mttfntn"
 TOP = 6
-BAR = 25
+BAR = 20
 README = Path(__file__).resolve().parent.parent / "README.md"
 # Repositories built on someone else's code, left out so the chart counts only my own code.
 # tissue-blender-5 is a fork of Alessandro Zomparelli's Tissue (not marked as a fork on GitHub).
@@ -50,7 +50,8 @@ def block(sums):
     for lang, size in rows:
         share = size / total
         filled = round(share * BAR)
-        lines.append(f"{lang:<12} {size / 1024:>8.1f} KB   {'█' * filled}{'░' * (BAR - filled)}   {share * 100:5.2f} %")
+        # Kept narrow (about 40 characters) so it fits a phone screen without scrolling.
+        lines.append(f"{lang:<11} {'█' * filled}{'░' * (BAR - filled)}  {share * 100:5.1f} %")
     return "```text\n" + "\n".join(lines) + "\n```"
 
 
