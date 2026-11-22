@@ -17,28 +17,32 @@
 | **[onefingerrotation](https://github.com/mttfntn/OneFingerRotation)**<br>spin swiftui views with one finger. 58 people liked that. | **[phone trackpad](https://github.com/mttfntn/phone-trackpad)**<br>your phone, but it's a trackpad now. |
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48">
-  <img src="https://skillicons.dev/icons?i=py" alt="Python" height="48">
-  <img src="icons/octane.svg" alt="OctaneRender" height="48">
-  <img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="48">
-  <img src="https://skillicons.dev/icons?i=nuxtjs" alt="Nuxt" height="48">
-  <img src="https://skillicons.dev/icons?i=bun" alt="Bun" height="48">
+  <a href="https://www.blender.org"><img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48"></a>
+  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48"></a>
+  <a href="https://home.otoy.com/render/octane-render/"><img src="icons/octane.svg" alt="OctaneRender" height="48"></a>
+  <a href="https://vuejs.org"><img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="48"></a>
+  <a href="https://nuxt.com"><img src="https://skillicons.dev/icons?i=nuxtjs" alt="Nuxt" height="48"></a>
+  <a href="https://bun.com"><img src="https://skillicons.dev/icons?i=bun" alt="Bun" height="48"></a>
 </p>
 
 ### 💻 Tech stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)
-![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
-![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://docs.blender.org/api/current/)
+[![SwiftUI](https://img.shields.io/badge/SwiftUI-0D96F6?style=for-the-badge&logo=swift&logoColor=white)](https://developer.apple.com/xcode/swiftui/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)](https://vuejs.org)
+[![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white)](https://nuxt.com)
+[![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)](https://bun.com)
+[![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com)
+[![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)](https://threejs.org)
+[![GSAP](https://img.shields.io/badge/GSAP-0AE448?style=for-the-badge&logo=gsap&logoColor=white)](https://gsap.com)
+[![ScrollTrigger](https://img.shields.io/badge/ScrollTrigger-088F2F?style=for-the-badge&logo=gsap&logoColor=white)](https://gsap.com/docs/v3/Plugins/ScrollTrigger/)
+[![Lenis](https://img.shields.io/badge/Lenis-1A1A1A?style=for-the-badge&logoColor=white)](https://lenis.dev)
 
 ### 🛠️ Software
 
-![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)
-![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)
-![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+[![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org)
+[![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)](https://home.otoy.com/render/octane-render/)
+[![Xcode](https://img.shields.io/badge/Xcode-147EFB?style=for-the-badge&logo=xcode&logoColor=white)](https://developer.apple.com/xcode/)
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
