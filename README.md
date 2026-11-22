@@ -7,23 +7,23 @@
 ### blender
 
 <p>
-<a href="https://github.com/mttfntn/sanzo-wada-colors-blender"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/sanzo-wada-colors.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/sanzo-wada-colors.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/sanzo-wada-colors.svg?v=6"><img src="cards/light/sanzo-wada-colors.svg?v=6" alt="sanzo wada colors" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/shrinkpatch-blender"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/shrinkpatch.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/shrinkpatch.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/shrinkpatch.svg?v=6"><img src="cards/light/shrinkpatch.svg?v=6" alt="shrinkpatch" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/sanzo-wada-colors-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/sanzo-wada-colors.svg?v=7"><img src="cards/light/sanzo-wada-colors.svg?v=7" alt="sanzo wada colors"></picture></a>
+<a href="https://github.com/mttfntn/shrinkpatch-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/shrinkpatch.svg?v=7"><img src="cards/light/shrinkpatch.svg?v=7" alt="shrinkpatch"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/driver-controller-blender"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/driver-controller.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/driver-controller.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/driver-controller.svg?v=6"><img src="cards/light/driver-controller.svg?v=6" alt="driver controller" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/checklist-tool-blender"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/checklist-tool.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/checklist-tool.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/checklist-tool.svg?v=6"><img src="cards/light/checklist-tool.svg?v=6" alt="checklist tool" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/driver-controller-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/driver-controller.svg?v=7"><img src="cards/light/driver-controller.svg?v=7" alt="driver controller"></picture></a>
+<a href="https://github.com/mttfntn/checklist-tool-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/checklist-tool.svg?v=7"><img src="cards/light/checklist-tool.svg?v=7" alt="checklist tool"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/resource-safeguard.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/resource-safeguard.svg?v=6"><img src="cards/light/resource-safeguard.svg?v=6" alt="resource safeguard" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/tissue-blender-5.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/tissue-blender-5.svg?v=6"><img src="cards/light/tissue-blender-5.svg?v=6" alt="tissue for blender 5" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg?v=7"><img src="cards/light/resource-safeguard.svg?v=7" alt="resource safeguard"></picture></a>
+<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=7"><img src="cards/light/tissue-blender-5.svg?v=7" alt="tissue for blender 5"></picture></a>
 </p>
 
 ### elsewhere
 
 <p>
-<a href="https://github.com/mttfntn/OneFingerRotation"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/onefingerrotation.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/onefingerrotation.svg?v=6"><img src="cards/light/onefingerrotation.svg?v=6" alt="onefingerrotation" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark) and (max-width: 767px)" srcset="cards/dark-compact/phone-trackpad.svg?v=6"><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=6"><source media="(max-width: 767px)" srcset="cards/light-compact/phone-trackpad.svg?v=6"><img src="cards/light/phone-trackpad.svg?v=6" alt="phone trackpad" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/OneFingerRotation"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=7"><img src="cards/light/onefingerrotation.svg?v=7" alt="onefingerrotation"></picture></a>
+<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=7"><img src="cards/light/phone-trackpad.svg?v=7" alt="phone trackpad"></picture></a>
 </p>
 
 ### main tools

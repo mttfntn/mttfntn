@@ -129,8 +129,10 @@ def card(name, desc, details, release, size, stars, accent, t, cols=COLS, desc_r
 """ + "\n".join(rows) + "\n</svg>\n"
 
 
-# Layouts: folder suffix -> card() options. "-compact" is used on narrow screens (see README.md).
-LAYOUTS = {"": {}, "-compact": {"cols": 26, "desc_rows": 3, "split_meta": True}}
+# Layouts: folder suffix -> card() options. Only the standard one is used now: the cards have no
+# fixed width in README.md, so they sit two per row on wide screens and wrap to one per row,
+# shrunk to the screen width, on phones. The compact layout stays available for other uses.
+LAYOUTS = {"": {}}
 
 
 def main():
