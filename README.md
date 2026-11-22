@@ -1,7 +1,6 @@
 <img src="banner/banner.png" alt="Matteo Fontana" width="100%">
 
-matteo. italy. i make things in blender, swift and python, mostly small tools i needed
-myself and figured someone else might too.
+3D Artist, Generalist. I use Blender, swift and python. The github profile holds most of the tools I create and use plus some more stuff I make
 
 ### blender
 
