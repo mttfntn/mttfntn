@@ -53,7 +53,7 @@ def card(name, desc, tag, color, t):
 .t {{ font: 500 12px {FONT}; fill: {t['text']}; }}
 .a {{ font: 400 17px {FONT}; fill: {t['arrow']}; }}
 </style>
-<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="12" fill="{t['bg']}" stroke="{t['border']}"/>
+<rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" fill="{t['bg']}" stroke="{t['border']}"/>
 <text x="{PAD}" y="40" class="n">{escape(name)}</text>
 <text x="{W - PAD}" y="40" class="a" text-anchor="end">↗</text>
 {desc_lines}

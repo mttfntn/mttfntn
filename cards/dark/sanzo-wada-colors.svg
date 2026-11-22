@@ -5,7 +5,7 @@
 .t { font: 500 12px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #8d96a0; }
 .a { font: 400 17px -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #6e7681; }
 </style>
-<rect x="0.5" y="0.5" width="419" height="115" rx="12" fill="#161b22" stroke="#30363d"/>
+<rect x="0.5" y="0.5" width="419" height="115" fill="#161b22" stroke="#30363d"/>
 <text x="22" y="40" class="n">sanzo wada colors</text>
 <text x="398" y="40" class="a" text-anchor="end">↗</text>
 <text x="22" y="68" class="d">a 1930s color dictionary, now in your shader editor.</text>
