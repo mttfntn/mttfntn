@@ -2,6 +2,8 @@
 
 3D Artist, Generalist. I use Blender, Python and more. This github profile holds most of the tools I create and use.
 
+3D 艺术家，综合型创作者。我使用 Blender、Python 等工具进行创作。这个 GitHub 主页收录了我开发和使用的大部分工具。
+
 ### blender
 
 <p>
