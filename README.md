@@ -25,12 +25,12 @@
 </p>
 
 <p>
-  <a href="https://www.blender.org"><img src="https://skillicons.dev/icons?i=blender" alt="Blender" height="48"></a>
-  <a href="https://www.python.org"><img src="https://skillicons.dev/icons?i=py" alt="Python" height="48"></a>
-  <a href="https://home.otoy.com/render/octane-render/"><img src="icons/octane.svg?v=2" alt="OctaneRender" height="48"></a>
-  <a href="https://vuejs.org"><img src="https://skillicons.dev/icons?i=vue" alt="Vue" height="48"></a>
-  <a href="https://nuxt.com"><img src="https://skillicons.dev/icons?i=nuxtjs" alt="Nuxt" height="48"></a>
-  <a href="https://bun.com"><img src="https://skillicons.dev/icons?i=bun" alt="Bun" height="48"></a>
+  <a href="https://www.blender.org"><img src="icons/blender-original.svg" alt="Blender" height="44"></a>&nbsp;&nbsp;
+  <a href="https://www.python.org"><img src="icons/python-original.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
+  <a href="https://home.otoy.com/render/octane-render/"><picture><source media="(prefers-color-scheme: dark)" srcset="icons/octane-white.svg"><img src="icons/octane-black.svg" alt="OctaneRender" height="44"></picture></a>&nbsp;&nbsp;
+  <a href="https://vuejs.org"><img src="icons/vuejs-original.svg" alt="Vue" height="44"></a>&nbsp;&nbsp;
+  <a href="https://nuxt.com"><img src="icons/nuxt-original.svg" alt="Nuxt" height="44"></a>&nbsp;&nbsp;
+  <a href="https://bun.com"><img src="icons/bun-original.svg" alt="Bun" height="44"></a>&nbsp;&nbsp;
 </p>
 
 ### 💻 Tech stack
