@@ -6,6 +6,9 @@ Each card is a thin terminal-style frame with the project name cut into its top 
 description and a details line with the platform, the latest release, the size of its download
 and the stars (shown once there are any), read from GitHub. The languages workflow runs this daily,
 so releases and stars stay current. README.md links each card to its repository.
+
+It also rewrites the blender section of README.md (between the BLENDER markers): the
+BLENDER_SHOWN Blender projects with the most recent code push, newest first.
 """
 import json
 import os
@@ -20,6 +23,9 @@ COLS = 46           # characters per line, borders included
 CHAR_W = 8.4        # width of one character in SVG units (each line is stretched to fit exactly)
 LINE_H = 21
 PAD = 14
+README = HERE.parent / "README.md"
+BLENDER_SHOWN = 6
+START, END = "<!--BLENDER:START-->", "<!--BLENDER:END-->"
 FONT = "ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace"
 
 # card file, repository, name, description, details, accent color
@@ -151,9 +157,29 @@ def card(name, desc, details, release, size, stars, accent, t, cols=COLS, desc_r
 LAYOUTS = {"": {}}
 
 
+def picture(slug, repo, name):
+    """README markup for one card: dark or light version to match GitHub's theme, linked to the repo."""
+    return (f'<a href="https://github.com/{USER}/{repo}"><picture><source media="(prefers-color-scheme: dark)" '
+            f'srcset="cards/dark/{slug}.svg?v=7"><img src="cards/light/{slug}.svg?v=7" alt="{name}"></picture></a>')
+
+
+def write_blender_section(pushed):
+    """Puts the most recently pushed Blender projects, two per row, between the BLENDER markers."""
+    blender = [p for p in PROJECTS if p[4].startswith("blender")]
+    newest = sorted(blender, key=lambda p: pushed.get(p[1], ""), reverse=True)[:BLENDER_SHOWN]
+    rows = ["<p>\n" + "\n".join(picture(p[0], p[1], p[2]) for p in newest[i:i + 2]) + "\n</p>"
+            for i in range(0, len(newest), 2)]
+    text = README.read_text(encoding="utf-8")
+    a, b = text.index(START) + len(START), text.index(END)
+    README.write_text(text[:a] + "\n" + "\n".join(rows) + "\n" + text[b:], encoding="utf-8")
+    print("blender section:", ", ".join(p[0] for p in newest))
+
+
 def main():
+    pushed = {}
     for slug, repo, name, desc, details, accent in PROJECTS:
         info = api(f"repos/{USER}/{repo}") or {}
+        pushed[repo] = info.get("pushed_at", "")
         latest = api(f"repos/{USER}/{repo}/releases/latest") or {}
         release = latest.get("tag_name")
         zips = [a["size"] for a in latest.get("assets", []) if a["name"].endswith(".zip")]
@@ -166,6 +192,7 @@ def main():
                            **options)
                 (out / f"{slug}.svg").write_text(svg, encoding="utf-8")
     print(f"wrote {len(PROJECTS) * len(THEMES) * len(LAYOUTS)} cards")
+    write_blender_section(pushed)
 
 
 if __name__ == "__main__":
