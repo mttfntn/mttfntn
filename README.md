@@ -24,6 +24,8 @@
 <a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=2"><img src="cards/light/phone-trackpad.svg?v=2" alt="phone trackpad" width="49%"></picture></a>
 </p>
 
+### main tools
+
 <p>
   <a href="https://www.blender.org"><img src="icons/blender-original.svg" alt="Blender" height="44"></a>&nbsp;&nbsp;
   <a href="https://www.python.org"><img src="icons/python-original.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
@@ -33,7 +35,7 @@
   <a href="https://bun.com"><img src="icons/bun-original.svg" alt="Bun" height="44"></a>&nbsp;&nbsp;
 </p>
 
-### 💻 Tech stack
+### tech stack
 
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![Blender Python](https://img.shields.io/badge/Blender_Python-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://docs.blender.org/api/current/)
@@ -49,7 +51,7 @@
 [![WebGL](https://img.shields.io/badge/WebGL-990000?style=for-the-badge&logo=webgl&logoColor=white)](https://www.khronos.org/webgl/)
 [![WebGPU](https://img.shields.io/badge/WebGPU-005A9C?style=for-the-badge&logo=webgpu&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebGPU_API)
 
-### 🛠️ Software
+### software
 
 [![Blender](https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white)](https://www.blender.org)
 [![OctaneRender](https://img.shields.io/badge/OctaneRender-1A1A1A?style=for-the-badge&logo=octanerender&logoColor=white)](https://home.otoy.com/render/octane-render/)
@@ -57,7 +59,7 @@
 [![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)](https://unity.com)
 [![Unreal Engine](https://img.shields.io/badge/Unreal_Engine-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white)](https://www.unrealengine.com)
 
-### 📊 Most used languages
+### most used languages
 
 <!--LANGUAGES:START-->
 ```text
