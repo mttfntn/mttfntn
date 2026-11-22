@@ -8,16 +8,16 @@
 
 <!--BLENDER:START-->
 <p>
-<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=7"><img src="cards/light/tissue-blender-5.svg?v=7" alt="tissue-blender-5"></picture></a>
-<a href="https://github.com/mttfntn/unused-data-blocks-detector-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/unused-data-blocks.svg?v=7"><img src="cards/light/unused-data-blocks.svg?v=7" alt="unused-data-blocks"></picture></a>
+<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=8"><img src="cards/light/tissue-blender-5.svg?v=8" alt="tissue-blender-5"></picture></a>
+<a href="https://github.com/mttfntn/unused-data-blocks-detector-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/unused-data-blocks.svg?v=8"><img src="cards/light/unused-data-blocks.svg?v=8" alt="unused-data-blocks"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/transforms-checker-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/transforms-checker.svg?v=7"><img src="cards/light/transforms-checker.svg?v=7" alt="transforms-checker"></picture></a>
-<a href="https://github.com/mttfntn/snapshot-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/solid-snapshot.svg?v=7"><img src="cards/light/solid-snapshot.svg?v=7" alt="solid-snapshot"></picture></a>
+<a href="https://github.com/mttfntn/transforms-checker-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/transforms-checker.svg?v=8"><img src="cards/light/transforms-checker.svg?v=8" alt="transforms-checker"></picture></a>
+<a href="https://github.com/mttfntn/snapshot-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/solid-snapshot.svg?v=8"><img src="cards/light/solid-snapshot.svg?v=8" alt="solid-snapshot"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/octane-fast-startup-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/octane-fast-start.svg?v=7"><img src="cards/light/octane-fast-start.svg?v=7" alt="octane-fast-start"></picture></a>
-<a href="https://github.com/mttfntn/mesh-analyzer-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/mesh-analyzer.svg?v=7"><img src="cards/light/mesh-analyzer.svg?v=7" alt="mesh-analyzer"></picture></a>
+<a href="https://github.com/mttfntn/octane-fast-startup-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/octane-fast-start.svg?v=8"><img src="cards/light/octane-fast-start.svg?v=8" alt="octane-fast-start"></picture></a>
+<a href="https://github.com/mttfntn/mesh-analyzer-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/mesh-analyzer.svg?v=8"><img src="cards/light/mesh-analyzer.svg?v=8" alt="mesh-analyzer"></picture></a>
 </p>
 <!--BLENDER:END-->
 
@@ -26,8 +26,8 @@
 ### elsewhere
 
 <p>
-<a href="https://github.com/mttfntn/one-finger-rotation-swiftui"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=7"><img src="cards/light/onefingerrotation.svg?v=7" alt="onefingerrotation"></picture></a>
-<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=7"><img src="cards/light/phone-trackpad.svg?v=7" alt="phone trackpad"></picture></a>
+<a href="https://github.com/mttfntn/one-finger-rotation-swiftui"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=8"><img src="cards/light/onefingerrotation.svg?v=8" alt="one-finger-rotation-swiftui"></picture></a>
+<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=8"><img src="cards/light/phone-trackpad.svg?v=8" alt="phone trackpad"></picture></a>
 </p>
 
 ### main tools

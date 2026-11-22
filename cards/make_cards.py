@@ -58,7 +58,7 @@ PROJECTS = [
      "finds the objects you forgot to apply.", "blender", "#E87D0D"),
     ("unused-data-blocks", "unused-data-blocks-detector-blender", "unused-data-blocks",
      "tells you when your .blend carries dead weight.", "blender", "#E87D0D"),
-    ("onefingerrotation", "one-finger-rotation-swiftui", "onefingerrotation",
+    ("onefingerrotation", "one-finger-rotation-swiftui", "one-finger-rotation-swiftui",
      "spin swiftui views with one finger.", "swift · swiftui", "#F05138"),
     ("phone-trackpad", "phone-trackpad", "phone-trackpad",
      "your phone, but it's a trackpad now.", "python · win/mac", "#3776AB"),
@@ -160,7 +160,7 @@ LAYOUTS = {"": {}}
 def picture(slug, repo, name):
     """README markup for one card: dark or light version to match GitHub's theme, linked to the repo."""
     return (f'<a href="https://github.com/{USER}/{repo}"><picture><source media="(prefers-color-scheme: dark)" '
-            f'srcset="cards/dark/{slug}.svg?v=7"><img src="cards/light/{slug}.svg?v=7" alt="{name}"></picture></a>')
+            f'srcset="cards/dark/{slug}.svg?v=8"><img src="cards/light/{slug}.svg?v=8" alt="{name}"></picture></a>')
 
 
 def write_blender_section(pushed):
