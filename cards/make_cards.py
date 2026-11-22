@@ -3,8 +3,8 @@
     GITHUB_TOKEN=... python3 cards/make_cards.py
 
 Each card is a thin terminal-style frame with the project name cut into its top edge, then the
-description and a details line with the platform, the latest release and the stars (shown once
-there are any), read from GitHub. The languages workflow runs this daily,
+description and a details line with the platform, the latest release, the size of its download
+and the stars (shown once there are any), read from GitHub. The languages workflow runs this daily,
 so releases and stars stay current. README.md links each card to its repository.
 """
 import json
@@ -39,7 +39,7 @@ PROJECTS = [
     ("onefingerrotation", "OneFingerRotation", "onefingerrotation",
      "spin swiftui views with one finger.", "swift · swiftui", "#F05138"),
     ("phone-trackpad", "phone-trackpad", "phone-trackpad",
-     "your phone, but it's a trackpad now.", "python · windows · macos", "#3776AB"),
+     "your phone, but it's a trackpad now.", "python · win/mac", "#3776AB"),
 ]
 
 THEMES = {
@@ -63,6 +63,10 @@ def api(path):
         raise
 
 
+def human_size(n):
+    return f"{n / 1024:.1f} KB" if n < 1024 ** 2 else f"{n / 1024 ** 2:.1f} MB"
+
+
 def wrap(text, width):
     lines, line = [], ""
     for word in text.split():
@@ -74,7 +78,7 @@ def wrap(text, width):
     return lines + [line]
 
 
-def card(name, desc, details, release, stars, accent, t):
+def card(name, desc, details, release, size, stars, accent, t):
     """One card as SVG: a thin terminal-style frame with the name cut into its top edge, two
     lines for the description (always reserved, so every card has the same height) and a
     details line. All text is monospace."""
@@ -86,7 +90,10 @@ def card(name, desc, details, release, stars, accent, t):
     bottom = line0 + 3 * LINE_H + 2
     height = bottom + PAD
     head, _, rest = details.partition(" · ")
-    meta_tail = (" · " + rest if rest else "") + (f" · {release}" if release else "") + (f" · ★ {stars}" if stars else "")
+    meta_tail = ((" · " + rest if rest else "") + (f" · {release}" if release else "")
+                 + (f" · {size}" if size else "") + (f" · ★ {stars}" if stars else ""))
+    if len(head + meta_tail) > inner:
+        raise ValueError(f"details line too long for the card: {head + meta_tail!r}")
     x_text = PAD + 2 * CHAR_W
     title_w = (len(name) + 2) * CHAR_W
     e = escape
@@ -108,11 +115,14 @@ def card(name, desc, details, release, stars, accent, t):
 def main():
     for slug, repo, name, desc, details, accent in PROJECTS:
         info = api(f"repos/{USER}/{repo}") or {}
-        release = (api(f"repos/{USER}/{repo}/releases/latest") or {}).get("tag_name")
+        latest = api(f"repos/{USER}/{repo}/releases/latest") or {}
+        release = latest.get("tag_name")
+        zips = [a["size"] for a in latest.get("assets", []) if a["name"].endswith(".zip")]
+        size = human_size(zips[0]) if zips else None  # the download attached to the release
         for theme, colors in THEMES.items():
             out = HERE / theme
             out.mkdir(exist_ok=True)
-            svg = card(name, desc, details, release, info.get("stargazers_count", 0), accent, colors)
+            svg = card(name, desc, details, release, size, info.get("stargazers_count", 0), accent, colors)
             (out / f"{slug}.svg").write_text(svg, encoding="utf-8")
     print(f"wrote {len(PROJECTS) * len(THEMES)} cards")
 

@@ -7,23 +7,23 @@
 ### blender
 
 <p>
-<a href="https://github.com/mttfntn/sanzo-wada-colors-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/sanzo-wada-colors.svg?v=4"><img src="cards/light/sanzo-wada-colors.svg?v=4" alt="sanzo wada colors" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/shrinkpatch-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/shrinkpatch.svg?v=4"><img src="cards/light/shrinkpatch.svg?v=4" alt="shrinkpatch" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/sanzo-wada-colors-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/sanzo-wada-colors.svg?v=5"><img src="cards/light/sanzo-wada-colors.svg?v=5" alt="sanzo wada colors" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/shrinkpatch-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/shrinkpatch.svg?v=5"><img src="cards/light/shrinkpatch.svg?v=5" alt="shrinkpatch" width="49%"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/driver-controller-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/driver-controller.svg?v=4"><img src="cards/light/driver-controller.svg?v=4" alt="driver controller" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/checklist-tool-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/checklist-tool.svg?v=4"><img src="cards/light/checklist-tool.svg?v=4" alt="checklist tool" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/driver-controller-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/driver-controller.svg?v=5"><img src="cards/light/driver-controller.svg?v=5" alt="driver controller" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/checklist-tool-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/checklist-tool.svg?v=5"><img src="cards/light/checklist-tool.svg?v=5" alt="checklist tool" width="49%"></picture></a>
 </p>
 <p>
-<a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg?v=4"><img src="cards/light/resource-safeguard.svg?v=4" alt="resource safeguard" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=4"><img src="cards/light/tissue-blender-5.svg?v=4" alt="tissue for blender 5" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg?v=5"><img src="cards/light/resource-safeguard.svg?v=5" alt="resource safeguard" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=5"><img src="cards/light/tissue-blender-5.svg?v=5" alt="tissue for blender 5" width="49%"></picture></a>
 </p>
 
 ### elsewhere
 
 <p>
-<a href="https://github.com/mttfntn/OneFingerRotation"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=4"><img src="cards/light/onefingerrotation.svg?v=4" alt="onefingerrotation" width="49%"></picture></a>
-<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=4"><img src="cards/light/phone-trackpad.svg?v=4" alt="phone trackpad" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/OneFingerRotation"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/onefingerrotation.svg?v=5"><img src="cards/light/onefingerrotation.svg?v=5" alt="onefingerrotation" width="49%"></picture></a>
+<a href="https://github.com/mttfntn/phone-trackpad"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/phone-trackpad.svg?v=5"><img src="cards/light/phone-trackpad.svg?v=5" alt="phone trackpad" width="49%"></picture></a>
 </p>
 
 ### main tools
