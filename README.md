@@ -18,6 +18,22 @@
 <a href="https://github.com/mttfntn/resource-safeguard-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/resource-safeguard.svg?v=7"><img src="cards/light/resource-safeguard.svg?v=7" alt="resource safeguard"></picture></a>
 <a href="https://github.com/mttfntn/tissue-blender-5"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/tissue-blender-5.svg?v=7"><img src="cards/light/tissue-blender-5.svg?v=7" alt="tissue for blender 5"></picture></a>
 </p>
+<p>
+<a href="https://github.com/mttfntn/composition-guides-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/composition-guides.svg?v=7"><img src="cards/light/composition-guides.svg?v=7" alt="composition guides"></picture></a>
+<a href="https://github.com/mttfntn/ior-material-list-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/ior-material-list.svg?v=7"><img src="cards/light/ior-material-list.svg?v=7" alt="ior material list"></picture></a>
+</p>
+<p>
+<a href="https://github.com/mttfntn/lut-manager-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/lut-manager.svg?v=7"><img src="cards/light/lut-manager.svg?v=7" alt="lut manager"></picture></a>
+<a href="https://github.com/mttfntn/mesh-analyzer-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/mesh-analyzer.svg?v=7"><img src="cards/light/mesh-analyzer.svg?v=7" alt="mesh analyzer"></picture></a>
+</p>
+<p>
+<a href="https://github.com/mttfntn/octane-fast-startup-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/octane-fast-start.svg?v=7"><img src="cards/light/octane-fast-start.svg?v=7" alt="octane fast start"></picture></a>
+<a href="https://github.com/mttfntn/snapshot-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/solid-snapshot.svg?v=7"><img src="cards/light/solid-snapshot.svg?v=7" alt="solid snapshot"></picture></a>
+</p>
+<p>
+<a href="https://github.com/mttfntn/transforms-checker-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/transforms-checker.svg?v=7"><img src="cards/light/transforms-checker.svg?v=7" alt="transforms checker"></picture></a>
+<a href="https://github.com/mttfntn/unused-data-blocks-detector-blender"><picture><source media="(prefers-color-scheme: dark)" srcset="cards/dark/unused-data-blocks.svg?v=7"><img src="cards/light/unused-data-blocks.svg?v=7" alt="unused data blocks detector"></picture></a>
+</p>
 
 ### elsewhere
 
@@ -60,12 +76,12 @@
 
 <!--LANGUAGES:START-->
 ```text
-Python      ██████████████████░░   88.8 %
-JavaScript  █░░░░░░░░░░░░░░░░░░░    7.4 %
-Swift       ░░░░░░░░░░░░░░░░░░░░    2.1 %
-CSS         ░░░░░░░░░░░░░░░░░░░░    0.7 %
-HTML        ░░░░░░░░░░░░░░░░░░░░    0.6 %
-Batchfile   ░░░░░░░░░░░░░░░░░░░░    0.2 %
+Python      ███████████████████░   93.0 %
+JavaScript  █░░░░░░░░░░░░░░░░░░░    4.4 %
+Swift       ░░░░░░░░░░░░░░░░░░░░    1.2 %
+Shell       ░░░░░░░░░░░░░░░░░░░░    0.4 %
+CSS         ░░░░░░░░░░░░░░░░░░░░    0.4 %
+HTML        ░░░░░░░░░░░░░░░░░░░░    0.4 %
 ```
 <!--LANGUAGES:END-->
 

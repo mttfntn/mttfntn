@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="414" height="126" viewBox="0 0 414 126">
+<style>text { font: 14px ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; }</style>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="18.2" y="22.0" width="378.0" height="90.0" fill="none" stroke="#c8d1da" stroke-width="1.2"/>
+<rect x="22.4" y="19.0" width="134.4" height="6" fill="#ffffff"/>
+<rect x="374.4" y="19.0" width="18.5" height="6" fill="#ffffff"/>
+<text x="30.8" y="27.0" fill="#1f2328">solid-snapshot</text>
+<text x="378.6" y="27.0" fill="#E87D0D">↗</text>
+<text x="30.8" y="47.0" fill="#59636e">viewport shots in standard colors,</text>
+<text x="30.8" y="68.0" fill="#59636e">whatever your view transform.</text>
+<text x="30.8" y="97.0" xml:space="preserve"><tspan fill="#E87D0D">blender</tspan><tspan fill="#818b98"> · v1.0.0 · 18.6 KB · ★ 1</tspan></text>
+</svg>
