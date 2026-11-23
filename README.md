@@ -34,6 +34,7 @@
 
 <p>
   <a href="https://www.blender.org"><img src="icons/blender-original.svg" alt="Blender" height="44"></a>&nbsp;&nbsp;
+  <a href="https://www.plasticity.xyz"><picture><source media="(prefers-color-scheme: dark)" srcset="icons/plasticity-white.png"><img src="icons/plasticity-black.png" alt="Plasticity" height="44"></picture></a>&nbsp;&nbsp;
   <a href="https://home.otoy.com/render/octane-render/"><picture><source media="(prefers-color-scheme: dark)" srcset="icons/octane-white.svg"><img src="icons/octane-black.svg" alt="OctaneRender" height="44"></picture></a>&nbsp;&nbsp;
   <a href="https://www.python.org"><img src="icons/python-original.svg" alt="Python" height="44"></a>&nbsp;&nbsp;
 </p>
