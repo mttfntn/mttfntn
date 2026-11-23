@@ -3,8 +3,8 @@
     GITHUB_TOKEN=... python3 cards/make_cards.py
 
 Each card is a thin terminal-style frame with the project name cut into its top edge, then the
-description and a details line with the platform, the latest release, the size of its download
-and the stars (shown once there are any), read from GitHub. The languages workflow runs this daily,
+description and a details line with the platform, the latest release and the size of its download,
+read from GitHub. The languages workflow runs this daily,
 so releases and stars stay current. README.md links each card to its repository.
 
 It also rewrites the blender section of README.md (between the BLENDER markers): the
@@ -117,7 +117,7 @@ def card(name, desc, details, release, size, stars, accent, t, cols=COLS, desc_r
     head, _, rest = details.partition(" · ")
     extra = " · ".join(x for x in (release, size, f"★ {stars}" if stars else None) if x)
     # If the details don't fit, the secondary platform words (e.g. "python") go first.
-    stars_text = f"★ {stars}" if stars else None
+    stars_text = None  # stars are not shown on the cards
     for platform in ([" · " + rest] if rest else []) + [""]:
         if split_meta:  # compact: platform / release and size / stars, each on its own line
             meta = [(head, platform), ("", " · ".join(x for x in (release, size) if x)), ("", stars_text or "")]
@@ -160,7 +160,7 @@ LAYOUTS = {"": {}}
 def picture(slug, repo, name):
     """README markup for one card: dark or light version to match GitHub's theme, linked to the repo."""
     return (f'<a href="https://github.com/{USER}/{repo}"><picture><source media="(prefers-color-scheme: dark)" '
-            f'srcset="cards/dark/{slug}.svg?v=8"><img src="cards/light/{slug}.svg?v=8" alt="{name}"></picture></a>')
+            f'srcset="cards/dark/{slug}.svg?v=9"><img src="cards/light/{slug}.svg?v=9" alt="{name}"></picture></a>')
 
 
 def write_blender_section(pushed):
