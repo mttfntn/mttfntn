@@ -1,8 +1,8 @@
 <img src="banner/banner.png" alt="Matteo Fontana" width="100%">
 
-3D Artist, Generalist. Using Blender, Octane, Python and more. This profile holds most of the tools I create and use + more stuff.
+3D Artist, Generalist. Using Blender, Plasticity, Octane, Python and more. This profile holds most of the tools I create and use + more stuff. (ー_ーゞ
 
-3Dアーティスト、ジェネラリスト。Blender、Octane、Python などを使っています。このプロフィールには、私が作って使っているツールのほとんどと、その他いろいろなものをまとめています。
+3Dアーティスト、ジェネラリスト。Blender、Plasticity、Octane、Python などを使っています。このプロフィールには、私が作って使っているツールのほとんどと、その他いろいろなものをまとめています。(ー_ーゞ
 
 ### blender
 
